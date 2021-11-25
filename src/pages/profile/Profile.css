@@ -1,0 +1,82 @@
+.back {
+    background-color: #f2e3ff;
+}
+
+.myInfo {
+    background-color: #2b2b2b;
+}
+
+.myIntro {
+    background-color: white;
+    text-align: left;
+    overflow-y:auto;
+}
+
+.hoverColor:hover {
+    background-color: #f2e3ff;
+}
+.myIntro ul li {
+    margin-bottom: 0.5rem;
+}
+
+.myIntro::-webkit-scrollbar{
+    width:10px;
+    height:10px;
+}
+.myIntro::-webkit-scrollbar-track{
+background: none;
+border-radius:2px;
+}
+.myIntro::-webkit-scrollbar-thumb{
+background: #bfbfbf;
+border-radius:10px;
+}
+.myIntro::-webkit-scrollbar-thumb:hover{
+background: #6d6d6d;
+}
+.myIntro::-webkit-scrollbar-corner{
+background: #179a16;
+}
+
+.infoText {
+    color: #f2e3ff;
+}
+
+.infoText:first-child {
+    margin-top: 10vh;
+}
+
+.introTitle {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.careerItem, .techStack {
+    margin-left: 0.5rem;
+}
+
+.topBottomPadding {
+    height: 2rem;
+}
+
+a, a:visited {
+    color: #2b2b2b !important;
+    text-decoration: none !important;
+    background-color: #f2e3ff;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}
+
+a:hover {
+    color: #2b2b2b !important;
+    text-decoration: none !important;
+    background-color: #d5a6ff;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+}
+
+@media screen and (max-width: 991px) {
+    .infoText:first-child {
+        margin-top: 0;
+    }
+}
